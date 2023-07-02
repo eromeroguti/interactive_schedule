@@ -43,6 +43,8 @@ $(function () {
 
   const currentDate = dayjs().format('dddd, MMMM D, YYYY');
   $('#currentDay').text(currentDate);
+
+  console.log(currentDate)
   
   // TODO: Add code to apply the past, present, or future class to each time
   // block by comparing the id to the current hour. HINTS: How can the id
